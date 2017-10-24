@@ -1,0 +1,44 @@
+
+	*{
+		padding: 0px;
+		margin: 0px;
+	}
+
+
+     header{
+     	width: 100%;
+     	text-align: center;
+     	color: white;
+     	background-color: orange;
+     }
+
+	  .wrapper{
+        max-width:1200px;
+        margin: 0 auto;
+        padding:1%;
+	}
+     .box{
+     	width: 200px;
+     	height: 200px;
+     	background-color: yellow;
+     	margin-top:1%;
+     	margin-left:5%;
+     	display: inline-block;
+    }
+    
+     footer{
+    	width: 100%;
+     	text-align: center;
+     	color: white;
+     	background-color: orange;
+    } 	
+
+
+    @media  screen and (max-width:1033px ) {
+    	 .box{
+    	     width: calc(100/4); 
+    	 }
+
+    	 
+    }
+		

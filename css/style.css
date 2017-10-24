@@ -6,7 +6,9 @@
 
 
 .container{
-	width: 100%;
+	
+  	max-width:100%;
+
 }
 
 .clearfix:after {
@@ -76,7 +78,7 @@ h3{
 	text-align: center;
 }
 
-@media only screen and (max-width:620px){
+@media screen (max-width:960px){
 	/*for mobile phones*/
 	nav, article, aside,{
 		width: 100%;
