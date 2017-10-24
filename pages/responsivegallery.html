@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Media queries</title>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+
+
+	*{
+		padding: 0px;
+		margin: 0px;
+	}
+
+
+     header{
+     	width: 100%;
+     	text-align: center;
+     	color: white;
+     	background-color: orange;
+     }
+
+	  .wrapper{
+        max-width:1200px;
+        margin: 0 auto;
+        padding:1%;
+	}
+     .box{
+     	width: 200px;
+     	height: 200px;
+     	background-color: yellow;
+     	margin-top:1%;
+     	margin-left:5%;
+     	display: inline-block;
+    }
+    
+     footer{
+    	width: 100%;
+     	text-align: center;
+     	color: white;
+     	background-color: orange;
+    } 	
+
+
+    @media  screen and (max-width:1033px ) {
+    	 .box{
+    	     width: calc(100/4); 
+    	 }
+
+    	 .
+    }
+		
+	</style>
+</head>
+<body>
+
+
+   <header>
+	<h1>Media queries gallery</h1>
+   </header>
+
+   <div class="wrapper">
+    	<div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+        <div class="box">10</div>
+        <div class="box">11</div>
+        <div class="box">12</div>
+    </div> 
+
+
+<footer>
+	<h3>Footer</h3>
+</footer>	
+
+
+
+</body>
+</html>
