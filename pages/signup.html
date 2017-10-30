@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/signup.css">
+</head>
+<body>
+	<div class="wrapper">
+
+     <form name ="form1"; method="POST"; action="/action_page.php">
+
+      <label>Name:</label><br>
+      <input type ="text" name ="uname" placeholder="Enter Username" size ="30" required maxlength="10" minlength="2"><br>
+      <span class="error" aria-live="polite"></span>
+
+      <lable>Email:</label><br>
+      <input type="email" name ="email"  size="30" value= "" required placeholder="Enter email"><br>
+
+      <label>Password:</label><br>
+      <input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" name ="psw" size="30" title="Password must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required placeholder="Create password"><br>
+      <button type="Submit" class="signup">Signup</button>  
+      </form>	
+  </div>	
+</body>
+</html>
