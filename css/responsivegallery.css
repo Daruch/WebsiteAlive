@@ -20,13 +20,17 @@ header{
     margin-bottom: 1%;
 }
 
+.images{
+   max-width: 900px;
+   margin: 0 auto;
+}
 
 .images img{
  margin-top:.5%;
  margin-left:2%;
  display: inline-block;
+ box-shadow: .5px .5px .5px #ccc;
 }
-
 
 footer{
    width: 100%;
